@@ -1,4 +1,5 @@
 <!-- DTD created at Fri Sep 24 13:32:03 CEST 2010 with EditiX. Please insert an encoding attribute header for converting any DTD  -->
+<!-- mikael.gunnarsson@hb.se first attempt-->
 
 <!ELEMENT rdf:RDF (skos:ConceptScheme?,skos:Concept*)>
 <!ATTLIST rdf:RDF xmlns:dc CDATA #IMPLIED
