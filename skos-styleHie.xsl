@@ -70,7 +70,7 @@ xmlns:dc="http://purl.org/dc/elements/1.1/">
 								  <xsl:value-of select="."/>
 								</span>
 						</td>
-						<td  style="border-top : solid black 1px">Anv‰nds fˆr (UF):</td>
+						<td  style="border-top : solid black 1px">Anv√§nds f√∂r (UF):</td>
 						<td class="desc"  style="border-top : solid black 1px" >
 								<xsl:for-each select="../skos:altLabel">
 										<xsl:value-of select="."/>
@@ -97,7 +97,7 @@ xmlns:dc="http://purl.org/dc/elements/1.1/">
 								<td class="term" >
 										<xsl:text/>
 								</td>
-								<td>÷verordnade koncept (BT):</td>
+								<td>√ñverordnade koncept (BT):</td>
 								<td class="desc">
 										<xsl:for-each select="../skos:broader">
 												<xsl:call-template name="BaseNameResolver">
@@ -181,8 +181,8 @@ xmlns:dc="http://purl.org/dc/elements/1.1/">
 						<td class="term"  style="text-indent : 1em; border-top : solid black 1px" >
 								<span style="color:red">
 										<xsl:value-of select="."/>
-								</span> (icke fˆredragen term)</td>
-						<td  style="border-top : solid black 1px" >Anv‰nd i st‰llet (USE): </td>
+								</span> (icke f√∂redragen term)</td>
+						<td  style="border-top : solid black 1px" >Anv√§nd i st√§llet (USE): </td>
 						<td style="border-top : solid black 1px" class="desc">
 								<xsl:value-of select="../skos:prefLabel"/>
 						</td>
